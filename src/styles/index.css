@@ -1,3 +1,89 @@
-/* 
-    General Styles
-*/
+
+
+/* Estilos para la lista de contactos */
+.contact-list {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-list-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.contact-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+
+.delete-button:hover {
+    background-color: lightgray;
+}
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.save-button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.go-back-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.go-back-button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}
