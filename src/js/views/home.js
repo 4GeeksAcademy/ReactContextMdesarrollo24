@@ -19,11 +19,11 @@ export const Home = () => {
 							<p><strong>Address:</strong> {contact.address}</p>
 						</div>
 						{/* Botón para editar */}
-						<Link to={`/edit-contact/${contact.id}`} className="btn btn-primary edit-button">
+						<Link to={`/edit-contact/${contact.id}`} className="btn btn-light edit-button">
 							<i className="fas fa-pencil-alt"></i>
 						</Link>
 						{/* Botón para eliminar */}
-						<button onClick={() => actions.deleteContact(contact.id)} className="btn btn-danger delete-button">
+						<button onClick={() => actions.deleteContact(contact.id)} className="btn btn-light delete-button">
 							<i className="fas fa-trash"></i>
 						</button>
 					</li>

@@ -10,6 +10,13 @@
     list-style-type: none;
     padding: 0;
 }
+.delete-button {
+    background-color: transparent; 
+    border: none; 
+    color: inherit; 
+    cursor: pointer; 
+    padding: 0; 
+}
 
 .contact-card {
     display: flex;
@@ -33,9 +40,6 @@
 }
 
 
-.delete-button:hover {
-    background-color: lightgray;
-}
 .form-container {
     max-width: 400px;
     margin: 0 auto;

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/contactList.css'; // Asegúrate de crear y enlazar este archivo CSS
+import '../../styles/contactList.css'; // Crear y enlazar este archivo CSS
 
 const ContactList = ({ contacts, deleteContact }) => {
     return (
@@ -19,7 +19,7 @@ const ContactList = ({ contacts, deleteContact }) => {
 
                         {/* Botón para eliminar */}
                         <button onClick={() => deleteContact(contact.id)} className="delete-button">
-                        <i className="fas fa-pencil-alt"></i>
+                        <i className="fas fa-pencil"></i>
                         </button>
                     </li>
                 ))}
